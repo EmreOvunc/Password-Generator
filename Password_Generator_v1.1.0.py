@@ -36,7 +36,7 @@ def generate_func():
 main_window=Tk()
 header=main_window.title("PassG v1.1 ")
 main_window.geometry("220x200")
-main_window.iconbitmap(r'D:\Python27\DLLs\favicon1.ico')
+#main_window.iconbitmap(r'D:\Python27\DLLs\favicon1.ico')
 
 label_box=Label(text="Enter password length:",font='bold')
 label_box.place(x=5,y=8)
